@@ -1,0 +1,166 @@
+@import url("reset.css");
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  TYPOGRAPHY section
+  ========================================
+*/
+
+body {
+  height: 100%;
+  font-size: 15px;
+}
+
+/*a:hover {
+  text-decoration: underline;
+}*/
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+#header {
+  position: absolute;
+  padding: 5px 15px;
+  right: 0;
+  top: 0;
+}
+
+#main-nav {
+  float; right;
+  padding-right: 10px;
+}
+
+#header a, #footer a {
+  display: inline-block;
+  padding: 8px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+#header a{
+  color: #111;
+}
+
+#avatar {
+  border-radius: 30%;
+}
+
+/*
+  ========================================
+  main section: logo, search bar, buttons;
+  ========================================
+*/
+
+#main {
+  margin-top: 150px;
+  position: relative;
+}
+
+#logo, #search-bar {
+  display: block;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 300px;
+  height: 95px;
+  background: url('../img/google-logo.png') no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.country {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+
+#search-bar {
+  margin-top: 20px;
+  width: 600px;
+  height: 35px;
+  border: 2px solid #BBB;
+  font-size: 18px;
+  background: url("../img/mic.png") 0 0 no-repeat;
+  background-size: auto 75%;
+  background-position: right;
+}
+
+.search-button{
+  margin-top: 30px;
+  height: 40px;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  border: 2px solid #f2f2f2;
+  margin-right: 10px;
+}
+
+.search-button:hover, .search-button:focus{
+  background-color: #f2f2f2;
+  border-color: #c6c6c6;
+  color: #222;
+}
+
+
+/*
+  ========================================
+  FOOTER section
+  ========================================
+*/
+
+#left-footer {
+  float: left;
+}
+#left-footer a {
+  margin-left: 27px;
+}
+#right-footer {
+  float: right;
+}
+#right-footer a {
+  margin-right: 27px;
+}
+
+.nav#footer {
+  /*color: #aaa;*/
+  position: absolute;
+  padding: 5px 15px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2;
+}
+
