@@ -29,18 +29,38 @@
 
 /*
   ========================================
-  TYPOGRAPHY section
+  Custom styles section
   ========================================
 */
 
 body {
-  height: 100%;
   font-size: 15px;
 }
 
-/*a:hover {
+#header a, #footer a {
+  display: inline-block;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+/*
+  ========================================
+  LINKS section
+  ========================================
+*/
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+#footer a {
+  color: #777;
+}
+
+#header a:hover, #footer a:hover {
   text-decoration: underline;
-}*/
+}
 
 /*
   ========================================
@@ -60,18 +80,8 @@ body {
   padding-right: 10px;
 }
 
-#header a, #footer a {
-  display: inline-block;
-  padding: 8px;
-  vertical-align: middle;
-  text-decoration: none;
-}
-#header a{
-  color: #111;
-}
-
 #avatar {
-  border-radius: 30%;
+  border-radius: 25%;
 }
 
 /*
@@ -141,26 +151,29 @@ body {
   ========================================
 */
 
-#left-footer {
-  float: left;
-}
-#left-footer a {
-  margin-left: 27px;
-}
-#right-footer {
-  float: right;
-}
-#right-footer a {
-  margin-right: 27px;
-}
 
-.nav#footer {
-  /*color: #aaa;*/
+div#footer {
+  background-color: #f2f2f2;
   position: absolute;
-  padding: 5px 15px;
+  padding: 10px 15px;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #f2f2f2;
+}
+
+#left-footer {
+  float: left;
+}
+
+#right-footer {
+  float: right;
+}
+
+#left-footer a {
+  margin-left: 27px;
+}
+
+#right-footer a {
+  margin-right: 27px;
 }
 
