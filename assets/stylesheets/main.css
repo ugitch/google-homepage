@@ -159,14 +159,14 @@ a {
 */
 
 div#footer {
-  min-height: 40px;
-  max-height: 40px; 
+  height: 40px; 
+  min-width: 980px;
+  width: 100%;
   background-color: #f2f2f2;
+  border-top: 1px solid #bbb;
   position: absolute;
-  padding: 10px 15px;
-  right: 0;
+  padding: 5px 15px 5px;
   bottom: 0;
-  left: 0;
 }
 
 #left-footer {
@@ -178,10 +178,10 @@ div#footer {
 }
 
 #left-footer a {
-  margin-left: 27px;
+  margin-left: 10px;
 }
 
 #right-footer a {
-  margin-right: 27px;
+  margin-right: 10px;
 }
 
