@@ -54,16 +54,20 @@ a {
   color: #111;
 }
 
+#left-footer a {
+  margin-left: 10px;
+}
+
+#right-footer a {
+  margin-right: 10px;
+}
+
 #footer a {
   color: #777;
 }
 
 #header a:hover, #footer a:hover {
   text-decoration: underline;
-}
-
-.app-icon:hover {
-  opacity: .5;
 }
 
 /*
@@ -88,11 +92,19 @@ a {
   border-radius: 25%;
 }
 
+.app-icon:hover {
+  opacity: .5;
+}
+
 /*
   ========================================
   main section: logo, search bar, buttons;
   ========================================
 */
+
+.center {
+  text-align: center;
+}
 
 #main {
   margin-top: 12%;
@@ -128,6 +140,7 @@ a {
   background: url("../img/mic.png") 0 0 no-repeat;
   background-size: auto 75%;
   background-position: right;
+  padding-left: 10px;
 }
 
 #search-bar:hover {
@@ -159,9 +172,9 @@ a {
   ========================================
 */
 
-div#footer {
+#footer {
   height: 40px; 
-  min-width: 980px;
+  min-width: 800px;
   width: 100%;
   background-color: #f2f2f2;
   border-top: 1px solid #bbb;
@@ -178,11 +191,4 @@ div#footer {
   float: right;
 }
 
-#left-footer a {
-  margin-left: 10px;
-}
-
-#right-footer a {
-  margin-right: 10px;
-}
 
