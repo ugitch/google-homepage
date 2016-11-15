@@ -62,6 +62,10 @@ a {
   text-decoration: underline;
 }
 
+.app-icon:hover {
+  opacity: .5;
+}
+
 /*
   ========================================
   Navigation
