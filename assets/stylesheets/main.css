@@ -92,7 +92,7 @@ a {
 
 #main {
   margin-top: 150px;
-  position: relative;
+  /*position: relative;*/
 }
 
 #logo, #search-bar {
@@ -148,15 +148,15 @@ a {
   color: #222;
 }
 
-
 /*
   ========================================
   FOOTER section
   ========================================
 */
 
-
 div#footer {
+  min-height: 40px;
+  max-height: 40px; 
   background-color: #f2f2f2;
   position: absolute;
   padding: 10px 15px;
@@ -166,7 +166,7 @@ div#footer {
 }
 
 #left-footer {
-  float: left;
+ float: left;
 }
 
 #right-footer {
