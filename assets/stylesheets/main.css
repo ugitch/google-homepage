@@ -54,6 +54,14 @@ a {
   color: #111;
 }
 
+#footer a {
+  color: #777;
+}
+
+#header a:hover, #footer a:hover {
+  text-decoration: underline;
+}
+
 #left-footer a {
   margin-left: 10px;
 }
@@ -62,13 +70,7 @@ a {
   margin-right: 10px;
 }
 
-#footer a {
-  color: #777;
-}
 
-#header a:hover, #footer a:hover {
-  text-decoration: underline;
-}
 
 /*
   ========================================
@@ -107,7 +109,7 @@ a {
 }
 
 #main {
-  margin-top: 12%;
+  margin-top: 14%;
 }
 
 #logo, #search-bar {
@@ -119,8 +121,8 @@ a {
   width: 300px;
   height: 95px;
   background: url('../img/google-logo.png') no-repeat;
-  background-position: center;
   position: relative;
+  cursor: default;
 }
 
 .country {
