@@ -87,7 +87,7 @@
 */
 
 .main-content {
-  padding: 120px 0 180px 0;
+  padding: 120px 0 190px 0;
 }
 
 .main-content div {
@@ -96,6 +96,11 @@
 
 #logo {
   margin-bottom: 20px;
+}
+
+.country {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
 }
 
 #search-text {
@@ -107,6 +112,7 @@
   background: url("../img/mic.png") 0 0 no-repeat;
   background-size: auto 75%;
   background-position: right;
+  border: 1px solid #ddd;
 }
 
 input[type=button] {
@@ -133,6 +139,6 @@ header {
 footer {
   background-color: #f2f2f2;
   border-top: 1px solid #bbb;
-  padding: 20px;
+  padding: 15px;
   /*padding: 5px 15px 5px;*/
 }
