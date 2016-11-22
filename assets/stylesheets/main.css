@@ -14,18 +14,7 @@
   Clearfix
   ========================================
 */
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
+
 
 /*
   ========================================
@@ -33,42 +22,14 @@
   ========================================
 */
 
-body {
-  font-size: 15px;
-}
 
-#header a, #footer a {
-  display: inline-block;
-  padding: 8px;
-  vertical-align: middle;
-}
 
 /*
   ========================================
   LINKS section
   ========================================
 */
-
-a {
-  text-decoration: none;
-  color: #111;
-}
-
-#footer a {
-  color: #777;
-}
-
-#header a:hover, #footer a:hover {
-  text-decoration: underline;
-}
-
-#left-footer a {
-  margin-left: 10px;
-}
-
-#right-footer a {
-  margin-right: 10px;
-}
+ 
 
 
 
@@ -78,95 +39,40 @@ a {
   ========================================
 */
 
-#header {
-  position: absolute;
-  padding: 5px 15px;
-  right: 0;
-  top: 0;
+nav ul {
+  margin: 20px 10px;
 }
 
-#main-nav {
-  float; right;
-  padding-right: 10px;
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+nav li:last-child {
+  padding-right: 0;
+}
+nav ul {
+  float: right;
+  /*right: 0;*/
+  /*top: 0;*/
 }
 
-#avatar {
-  border-radius: 25%;
-}
-
-.app-icon:hover {
-  opacity: .5;
-}
 
 /*
   ========================================
-  main section: logo, search bar, buttons;
+  MAIN-CONTENT section
   ========================================
 */
 
-.center {
-  text-align: center;
-}
 
-#main {
-  margin-top: 14%;
-}
+/*
+  ========================================
+  HEADER section
+  ========================================
+*/
 
-#logo, #search-bar {
-  display: block;
-  margin: 0 auto;
-}
-
-#logo {
-  width: 300px;
-  height: 95px;
-  background: url('../img/google-logo.png') no-repeat;
+header {
   position: relative;
-  cursor: default;
-}
-
-.country {
-  color: #4285f4;
-  font: 16px/16px roboto-regular, arial, sans-serif;
-  position: absolute;
-  right: 20px;
-  bottom: 0px;
-}
-
-#search-bar {
-  margin-top: 20px;
-  width: 600px;
-  height: 35px;
-  border: 2px solid #BBB;
-  font-size: 18px;
-  background: url("../img/mic.png") 0 0 no-repeat;
-  background-size: auto 75%;
-  background-position: right;
-  padding-left: 10px;
-}
-
-#search-bar:hover {
-  border-color: gray;
-}
-
-.search-button{
-  margin-top: 30px;
-  padding: 0 15px;
-  height: 40px;
-  background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
-  border-radius: 2px;
-  color: #757575;
-  font-size: 13px;
-  font-weight: bold;
-  margin: 20px 10px;
-  margin-left: 5px;
-}
-
-.search-button:hover, .search-button:focus{
-  background-color: #f2f2f2;
-  border-color: #c6c6c6;
-  color: #222;
 }
 
 /*
@@ -175,23 +81,6 @@ a {
   ========================================
 */
 
-#footer {
-  height: 40px; 
-  min-width: 800px;
-  width: 100%;
-  background-color: #f2f2f2;
-  border-top: 1px solid #bbb;
-  position: absolute;
-  padding: 5px 15px 5px;
-  bottom: 0;
+footer {
+
 }
-
-#left-footer {
- float: left;
-}
-
-#right-footer {
-  float: right;
-}
-
-
