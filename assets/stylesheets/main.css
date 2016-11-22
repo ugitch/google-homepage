@@ -58,12 +58,13 @@
   margin: 20px;
 }
 
-.main-nav li {
+li {
   display: inline-block;
   padding-right: 20px;
   vertical-align: middle;
 }
-.main-nav li:last-child {
+
+li:last-child {
   padding-right: 0;
 }
 
@@ -74,7 +75,7 @@
 */
 
 .main-content {
-  padding-top: 120px;
+  padding: 120px 0 180px 0;
 }
 
 .main-content div {
@@ -99,7 +100,7 @@ input[type=text] {
 */
 
 header {
-  position: relative;
+  /*position: relative;*/
 }
 
 /*
@@ -108,6 +109,11 @@ header {
   ========================================
 */
 
-footer {
+.footer-nav {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
+#footer-nav-right {
+  float: right;
 }
