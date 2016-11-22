@@ -111,7 +111,7 @@ header {
 
 .footer-nav {
   display: inline-block;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 #footer-nav-right {
