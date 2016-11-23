@@ -127,7 +127,7 @@ input[type=button] {
   ========================================
 */
 
-header li:last-child > img {
+header li:last-child img {
   border-radius: 50%;
 }
 
