@@ -111,7 +111,7 @@
 #search-text {
   display: block;
   padding: 5px;
-  margin: 15px auto;
+  margin: 25px auto;
   font-size: 18px;
   width: 550px;
   background: url("../img/mic.png") 0 0 no-repeat;
@@ -125,6 +125,16 @@ input[type=button] {
   margin-right: 15px;
   font-weight: bold;
   color: #777;
+  height: 40px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+}
+
+input[type=button]:hover, input[type=button]:focus{
+  background-color: #f2f2f2;
+  border-color: #c6c6c6;
+  color: #222;
 }
 
 /*
