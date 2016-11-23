@@ -50,6 +50,10 @@
   color: #333;
  }
 
+ .nav a:hover {
+  text-decoration: underline;
+ }
+ 
 /*
   ========================================
   Navigation
