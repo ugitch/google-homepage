@@ -29,7 +29,6 @@
   *zoom: 1;
 }
 
-
 /*
   ========================================
   Custom styles section
@@ -42,8 +41,14 @@
   ========================================
 */
  
+ a {
+  text-decoration: none;
+  color: #777;
+ }
 
-
+ .main-nav a {
+  color: #333;
+ }
 
 /*
   ========================================
@@ -120,14 +125,13 @@ input[type=button] {
   color: #777;
 }
 
-
 /*
   ========================================
   HEADER section
   ========================================
 */
 
-header li:last-child img {
+.main-nav li:last-child img {
   border-radius: 50%;
 }
 
@@ -141,4 +145,8 @@ footer {
   background-color: #f2f2f2;
   border-top: 1px solid #bbb;
   padding: 15px;
+}
+
+.footer-nav {
+  margin: 0 10px;
 }
