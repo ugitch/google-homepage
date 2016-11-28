@@ -136,6 +136,10 @@ input[type=button]:hover, input[type=button]:focus{
   color: #222;
 }
 
+input[type=button]:last-child {
+  margin-right: 0px;
+}
+
 /*
   ========================================
   HEADER section
