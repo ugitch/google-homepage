@@ -65,6 +65,7 @@
 
 .footer-nav {
   display: inline-block;
+  margin: 0 10px;
 }
 
 #footer-nav-right {
@@ -128,7 +129,6 @@ input[type=button] {
 }
 
 input[type=button]:hover, input[type=button]:focus{
-  background-color: #f2f2f2;
   border-color: #c6c6c6;
   color: #222;
 }
@@ -160,8 +160,4 @@ footer {
   background-color: #f2f2f2;
   border-top: 1px solid #bbb;
   padding: 15px;
-}
-
-.footer-nav {
-  margin: 0 10px;
 }
