@@ -72,13 +72,13 @@
   float: right;
 }
 
-.main-nav li, .footer-nav li {
+.main-nav > a, .footer-nav li {
   display: inline-block;
   padding-right: 20px;
   vertical-align: middle;
 }
 
-.main-nav li:last-child, .footer-nav li:last-child {
+.main-nav > a:last-child, .footer-nav li:last-child {
   padding-right: 0;
 }
 
@@ -150,7 +150,7 @@ input[type=button]:last-child {
   ========================================
 */
 
-.main-nav li:last-child img {
+.main-nav > a:last-child img {
   border-radius: 50%;
 }
 
