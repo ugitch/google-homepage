@@ -47,7 +47,7 @@
   color: #333;
  }
 
- .nav a:hover {
+ nav a:hover {
   text-decoration: underline;
  }
  
@@ -68,17 +68,17 @@
   margin: 0 10px;
 }
 
-#footer-nav-right {
+footer > nav:last-child {
   float: right;
 }
 
-.main-nav > a, .footer-nav li {
+nav > a {
   display: inline-block;
   padding-right: 20px;
   vertical-align: middle;
 }
 
-.main-nav > a:last-child, .footer-nav li:last-child {
+nav > a:last-child {
   padding-right: 0;
 }
 
