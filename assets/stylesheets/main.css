@@ -96,14 +96,14 @@
   text-align: center;
 }
 
-#logo {
+.logo {
   width: 272px;
   height: 92px;
   display: inline-block;
   background: url("../img/google-logo.png") 0 0 no-repeat;
 }
 
-#logo-section {
+.logo-section {
   margin-bottom: 20px;
 }
 
