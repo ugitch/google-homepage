@@ -31,7 +31,6 @@
   *zoom: 1;
 }
 
-
 /*
   ========================================
   LINKS section
@@ -57,6 +56,16 @@
   ========================================
 */
 
+nav > a {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+nav > a:last-child {
+  padding-right: 0;
+}
+
 .main-nav {
   float: right;
   margin: 20px;
@@ -72,15 +81,6 @@ footer > nav:last-child {
   float: right;
 }
 
-nav > a {
-  display: inline-block;
-  padding-right: 20px;
-  vertical-align: middle;
-}
-
-nav > a:last-child {
-  padding-right: 0;
-}
 
 /*
   ========================================
@@ -112,7 +112,7 @@ nav > a:last-child {
   font: 16px/16px roboto-regular, arial, sans-serif;
 }
 
-#search-text {
+.search-text {
   display: block;
   padding: 5px;
   margin: 25px auto;
@@ -135,7 +135,8 @@ input[type=button] {
   border-radius: 2px;
 }
 
-input[type=button]:hover, input[type=button]:focus{
+input[type=button]:hover,
+input[type=button]:focus {
   border-color: #c6c6c6;
   color: #222;
 }
@@ -150,7 +151,7 @@ input[type=button]:last-child {
   ========================================
 */
 
-.main-nav > a:last-child img {
+.avatar {
   border-radius: 50%;
 }
 
