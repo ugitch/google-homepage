@@ -126,6 +126,15 @@ footer > nav:last-child {
   background-size: auto 75%;
   background-position: right;
   border: 1px solid #ddd;
+  box-shadow: 0px 1px 4px #bbb;
+}
+
+.search-text:hover,
+.search-text:focus,
+.search-text:active {
+  outline: none;
+  box-shadow: 1px 2px 4px #999;
+  border: 1px solid #ddd;
 }
 
 input[type=button] {
