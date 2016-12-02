@@ -72,8 +72,7 @@ nav > a:last-child {
 
 .main-nav {
   float: right;
-  margin: 20px;
-  /*font-size: 16px;*/
+  margin: 15px 25px;
 }
 
 .footer-nav {
@@ -118,10 +117,11 @@ footer > nav:last-child {
 
 .search-text {
   display: block;
-  padding: 5px;
-  margin: 25px auto;
+  padding: 10px 15px;
+  margin: 25px auto 30px auto;
   font-size: 18px;
   width: 550px;
+  height: 40px;
   background: url("../img/mic.png") 0 0 no-repeat;
   background-size: auto 75%;
   background-position: right;
@@ -129,7 +129,7 @@ footer > nav:last-child {
 }
 
 input[type=button] {
-  padding: 5px 10px;
+  padding: 5px 15px;
   margin-right: 5px;
   font-weight: bold;
   color: #777;
@@ -170,6 +170,6 @@ footer {
   bottom: 0px;
   width: 100%;
   background-color: #f2f2f2;
-  border-top: 1px solid #bbb;
+  border-top: 1px solid #ddd;
   padding: 15px;
 }
