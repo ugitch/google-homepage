@@ -12,6 +12,10 @@
           box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+}
+
 /*
   ========================================
   Clearfix
@@ -69,7 +73,7 @@ nav > a:last-child {
 .main-nav {
   float: right;
   margin: 20px;
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 
 .footer-nav {
