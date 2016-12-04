@@ -102,7 +102,7 @@ footer > nav:last-child {
   padding: 120px 0 120px 0;
 }
 
-.main-content > section {
+.main-content > div {
   text-align: center;
   margin: 10px 0 25px; 
 }
