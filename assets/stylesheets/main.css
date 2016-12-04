@@ -102,7 +102,7 @@ footer > nav:last-child {
   padding: 120px 0 120px 0;
 }
 
-.main-content > div {
+.main-content > section {
   text-align: center;
   margin: 10px 0 25px; 
 }
@@ -114,7 +114,10 @@ footer > nav:last-child {
   background: url("../img/google-logo.png") 0 0 no-repeat;
 }
 
-.country {
+.logo-subtext {
+  position: relative;
+  left: 102px;
+  top: 75px;
   color: #4285f4;
   font: 16px/16px roboto-regular, arial, sans-serif;
 }
