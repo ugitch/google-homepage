@@ -13,7 +13,8 @@
 }
 
 body {
-  font-size: 14px;
+  font-family: sans-serif;
+  font-size: 13px;
 }
 
 /*
@@ -52,6 +53,12 @@ body {
 
  nav a:hover {
   text-decoration: underline;
+ }
+
+ .main-content a {
+  display: inline-block;
+  color: #340dab;
+  padding-left: 10px;
  }
  
 /*
@@ -92,11 +99,12 @@ footer > nav:last-child {
 */
 
 .main-content {
-  padding: 120px 0 175px 0;
+  padding: 120px 0 120px 0;
 }
 
-.main-content div {
+.main-content > div {
   text-align: center;
+  margin: 10px 0 25px; 
 }
 
 .logo {
@@ -106,9 +114,9 @@ footer > nav:last-child {
   background: url("../img/google-logo.png") 0 0 no-repeat;
 }
 
-.logo-section {
+/*.logo-section {
   margin-bottom: 20px;
-}
+}*/
 
 .country {
   color: #4285f4;
